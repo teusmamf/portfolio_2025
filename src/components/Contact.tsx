@@ -16,7 +16,7 @@ const Contact = () => {
     setStatus('loading');
 
     try {
-      const response = await fetch('http://localhost:9001/send_email', {
+      const response = await fetch('https://send-email-est-sigma.vercel.app/send_email', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
