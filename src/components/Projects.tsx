@@ -34,7 +34,7 @@ const projects = [
     demo: 'https://rainbow-frangollo-578f23.netlify.app/',
   },
   { 
-    title: 'Buy page for vaping company',
+    title: 'Purchase page for vaping company',
     description: 'A page with pure HTML,CSS and Javascript with a add to cart funcionality',
     image: vapePage,
     tech: ['HTML', 'CSS', 'JavaScript'],
