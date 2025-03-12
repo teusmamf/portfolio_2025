@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Code2, Database, Server, Download } from 'lucide-react';
 import resumePath from '../assets/CV_eng_updated_v2.pdf';
+import profilePhoto from '../assets/perfil.jpeg';
+
 const About = () => {
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -36,6 +38,15 @@ const About = () => {
             About Me
           </h2>
 
+          {/* Imagem centralizada */}
+          <div className="flex justify-center mb-12"> {/* Centraliza a imagem */}
+            <img
+              src={profilePhoto}
+              alt="Mateus Martins Fernandes"
+              className="w-32 h-32 md:w-48 md:h-48 object-cover rounded-full border-4 border-blue-400 shadow-xl"
+            />
+          </div>
+
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <motion.div variants={containerVariants} className="glass-card p-8">
               <p className="text-lg text-muted-foreground mb-6">
@@ -50,7 +61,7 @@ const About = () => {
 
               {/* Botão de Download do Currículo */}
               <motion.a
-                href={resumePath}// Substitua pelo caminho do seu currículo
+                href={resumePath}
                 download="Mateus_Martins_CV.pdf"
                 whileHover={{ scale: 1.05, boxShadow: "0px 0px 15px rgba(255, 255, 255, 0.3)" }}
                 whileTap={{ scale: 0.95 }}

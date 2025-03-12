@@ -7,6 +7,7 @@ import estacionamentoRot from '../assets/estacionamentoRot.png'
 import sass from '../assets/sass.png'
 import vapePage from '../assets/vapepage.png'
 import auraFocus from '../assets/aurafocus.png';
+import newTech from '../assets/newtech.png';
 
 const projects = [
   {
@@ -48,6 +49,14 @@ const projects = [
     tech: ['Reactjs', 'CSS', 'Node.js', 'AWS-EC2'],
     github: 'https://github.com/orgs/auraFocus/repositories',
     demo: '#',
+  },
+  { 
+    title: 'Website for Newtech',
+    description: 'Website with 3D animmation for a eletronics devices shop',
+    image: newTech,
+    tech: ['Reactts', 'CSS', 'Node.js', 'AWS-EC2'],
+    github: 'https://github.com/teusmamf/newtech-website-animations',
+    demo: 'https://newtechcvel.netlify.app/',
   },
 ];
 
