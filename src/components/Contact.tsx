@@ -63,7 +63,7 @@ const Contact = () => {
                   <Github size={20} />
                   github.com/teusmamf
                 </a>
-                <a href="https://www.linkedin.com/in/mateusmf/" target="_blank" className="flex items-center gap-3">
+                <a href="https://www.linkedin.com/in/mateus-martins-fernandes-541aa1234/" target="_blank" className="flex items-center gap-3">
                   <Linkedin size={20} />
                   linkedin.com/in/mateusmf
                 </a>

@@ -28,7 +28,7 @@ function App() {
                className="text-muted-foreground hover:text-primary transition-colors">
               <Github size={24} />
             </a>
-            <a href="https://www.linkedin.com/in/mateusmf/" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.linkedin.com/in/mateus-martins-fernandes-541aa1234/" target="_blank" rel="noopener noreferrer"
                className="text-muted-foreground hover:text-primary transition-colors">
               <Linkedin size={24} />
             </a>
