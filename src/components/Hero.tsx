@@ -25,7 +25,7 @@ const Hero = () => {
       >
         <Suspense fallback={<div>Loading...</div>}>
           <Spline
-            scene="https://prod.spline.design/3okkospkbMCN14q1/scene.splinecode"
+            scene="https://prod.spline.design/FSh77K1KAPVl7pTE/scene.splinecode"
             className="w-full h-full"
           />
         </Suspense>
